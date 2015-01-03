@@ -929,6 +929,14 @@
 					margin-right: 0.35em;
 				}
 			}
+            
+            sup {
+                text-transform: lowercase;
+                color: #ccc;
+                font-size: 0.6em;
+                letter-spacing: 0.125em;
+                margin-left: -0.5em;
+            }
 		}
 		
 		nav {
@@ -1203,6 +1211,10 @@
 				width: 10px;
 			}
 		}
+        
+        ul.actions {
+            margin: $size-element-margin 0 0;
+        }
 	}
 
 /* Footer */
