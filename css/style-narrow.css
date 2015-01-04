@@ -1,8 +1,3 @@
-/*
-	Catalyst by Pixelarity
-	pixelarity.com @pixelarity
-	License: pixelarity.com/license
-*/
 /* Basic */
 body, input, select, textarea {
   font-size: 12pt;
@@ -86,10 +81,10 @@ header h6 + p {
 }
 
 /* One */
-#one p {
+#intro p {
   font-size: 1em;
 }
-#one .inner {
+#intro .inner {
   display: block;
   margin: 0 auto;
   max-width: 100%;
@@ -97,7 +92,7 @@ header h6 + p {
   text-align: center;
   width: 35em;
 }
-#one .device {
+#intro .device {
   display: block;
   margin: 4em auto 0 auto;
   max-width: 100%;
@@ -184,5 +179,3 @@ header h6 + p {
   display: inline-block;
   width: 6.25em;
 }
-
-/*# sourceMappingURL=style-narrow.css.map */

@@ -1,12 +1,6 @@
 @import 'vars';
 @import 'mixins';
 
-/*
-	Catalyst by Pixelarity
-	pixelarity.com @pixelarity
-	License: pixelarity.com/license
-*/
-
 /* Basic */
 
 	body, input, select, textarea {
@@ -70,7 +64,7 @@
 	
 /* One */
 
-	#one {
+	#intro {
 		.device {
 			border-width: 20px;
 			margin-top: $size-element-margin;

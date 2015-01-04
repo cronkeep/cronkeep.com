@@ -1,10 +1,5 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,600,300italic,600italic");
-/*
-	Catalyst by Pixelarity
-	pixelarity.com @pixelarity
-	License: pixelarity.com/license
-*/
 /* Basic */
 body {
   background: #fff;
@@ -1103,22 +1098,22 @@ body.is-loading #banner:after {
 }
 
 /* One */
-#one {
+#intro {
   padding-bottom: 0;
 }
-#one p {
+#intro p {
   font-size: 1.25em;
   line-height: 1.75em;
   margin: -0.5em 0 0 0;
 }
-#one .inner {
+#intro .inner {
   display: inline-block;
   margin-top: -6em;
   padding-right: 6em;
   vertical-align: middle;
   width: 50%;
 }
-#one .device {
+#intro .device {
   border: solid 40px #fff;
   border-bottom: 0;
   border-radius: 20px;
@@ -1130,7 +1125,7 @@ body.is-loading #banner:after {
   vertical-align: middle;
   width: 50%;
 }
-#one .device:after {
+#intro .device:after {
   background: #eee;
   border-radius: 100%;
   content: '';
@@ -1141,7 +1136,7 @@ body.is-loading #banner:after {
   top: 0;
   width: 10px;
 }
-#one ul.actions {
+#intro ul.actions {
   margin: 2em 0 0;
 }
 
