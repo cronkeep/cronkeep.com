@@ -1143,6 +1143,9 @@ body.is-loading #banner:after {
 #social {
   text-align: center;
 }
+#social .twitter-follow {
+  margin-left: 38px;
+}
 #social .github-star {
   width: 110px;
   height: 20px;
