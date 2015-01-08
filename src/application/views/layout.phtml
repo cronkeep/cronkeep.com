@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>CronKeep — Web-based Crontab Manager</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Web-based crontab manager which allows running cron jobs on demand, adding new jobs in a friendly way, all without the need for sysadmin-level access." />
+    <meta name="keywords" content="cron job crontab manager task scheduler" />
+    <meta name="author" content="Bogdan Ghervan" />
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-layers.min.js"></script>
+    <script src="js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="css/skel.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-wide.css" />
+    </noscript>
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+    <meta property="og:title" content="CronKeep">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Open-source crontab manager which allows running cron jobs on demand, adding new jobs in a friendly way, all without the need for sysadmin-level access.">
+    <meta property="og:url" content="http://www.cronkeep.com">
+    <meta property="og:image" content="http://www.cronkeep.com/images/job-list.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@CronKeep">
+    <meta name="twitter:title" content="CronKeep — Web-based Crontab Manager">
+    <meta name="twitter:description" content="Open-source crontab manager which allows running cron jobs on demand, adding new jobs in a friendly way, all without the need for sysadmin-level access.">
+    <meta name="twitter:image" content="http://www.cronkeep.com/images/job-list.png">
+    <meta name="twitter:url" content="http://www.cronkeep.com">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-58144268-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</head>
+<body>
+    <header id="header" class="skel-layers-fixed">
+        <h1><a href="index.html">CronKeep</a> <sup>alpha</sup></h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/documentation">Documentation</a></li>
+                <li><a href="/demo">Demo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <?php echo $content ?>
+
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="https://github.com/cronkeep/cronkeep" class="icon fa-github"><span class="label">GitHub</span></a></li>
+            <li><a href="https://twitter.com/cronkeep" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="mailto:hello@cronkeep.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+        <div class="copyright">
+            &copy; CronKeep. Licensed under <a href="https://raw.githubusercontent.com/cronkeep/cronkeep/master/LICENSE">Apache License 2.0</a>.
+        </div>
+        <p>
+            <a href="https://github.com/cronkeep/cronkeep/issues">Issues</a> on GitHub · For any inquiries, <a href="mailto:hello@cronkeep.com">hello@cronkeep.com</a>.
+        </p>
+    </footer>
+    
+    <?php if ($vars): ?>
+        <script>
+            <?php echo $vars ?>
+        </script>
+    <?php endif; ?>
+</body>
+</html>

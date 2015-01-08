@@ -1,0 +1,27 @@
+{
+    "name": "cronkeep/cronkeep.com",
+    "description": "CronKeep.com website, see package cronkeep/cronkeep for the crontab manager",
+    "type": "project",
+    "homepage": "http://www.cronkeep.com",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Bogdan Ghervan",
+            "email": "bogdan.ghervan@gmail.com",
+            "homepage": "https://www.linkedin.com/in/bogdanghervan",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "hello@cronkeep.com"
+    },
+    "require": {
+        "php": ">=5.5",
+        "slim/slim": "2.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "library\\": "library/"
+        }
+    }
+}
