@@ -16,4 +16,8 @@ $app->get('/', function () use ($app) {
     $app->render('index.phtml');
 });
 
+$app->get('/demo', function () use ($app) {
+    $app->render('demo.phtml');
+});
+
 $app->run();
