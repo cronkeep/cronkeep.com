@@ -20,7 +20,8 @@ Vagrant.configure("2") do |config|
     ubuntu.vm.box = "ubuntu/trusty64"
     ubuntu.vm.network "private_network", ip: "192.168.40.10"
     ubuntu.vm.synced_folder "./", "/var/www/cronkeep.com", create: true, group: "www-data", owner: "www-data"
-    ubuntu.vm.provision "shell", path: "provision/setup.sh"
+    ubuntu.vm.provision "shell", path: "provision/setup-once.sh"
+    ubuntu.vm.provision "shell", path: "provision/setup-always.sh", run: "always"
     ubuntu.vm.provider "virtualbox" do |v|
       v.name = "CronKeep.com"
       v.memory = 512

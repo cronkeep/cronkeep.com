@@ -33,9 +33,5 @@ composer install
 
 echo "Installing Sass..."
 gem install sass
-screen -S sass -d -m sass --watch /var/www/cronkeep.com/src/public/sass:/var/www/cronkeep.com/src/public/css \
-	--style expanded \
-	--unix-newlines \
-	--sourcemap=none
 
 echo "Finished provisioning."
