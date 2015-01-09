@@ -1190,7 +1190,6 @@ body.is-loading #banner:after {
 
 /* Demo */
 #demo {
-  background: #aaa;
   padding-bottom: 0;
 }
 #demo .device {
@@ -1220,7 +1219,7 @@ body.is-loading #banner:after {
 #demo .device.fit {
   display: block;
   width: 100%;
-  height: 900px;
+  height: 850px;
 }
 #demo .device.fit iframe {
   width: 100%;
