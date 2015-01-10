@@ -26,7 +26,7 @@ body, input, select, textarea {
 }
 
 a {
-  color: #E9685F;
+  color: #654f6f;
   text-decoration: underline;
 }
 a:hover {
@@ -232,7 +232,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #E9685F;
+  border-color: #654f6f;
 }
 
 .select-wrapper {
@@ -334,7 +334,7 @@ input[type="radio"]:checked + label:before {
 }
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-  border-color: #E9685F;
+  border-color: #654f6f;
 }
 
 input[type="radio"] + label:before {
@@ -710,20 +710,20 @@ input[type="submit"].special,
 input[type="reset"].special,
 input[type="button"].special,
 .button.special {
-  background-color: #E9685F;
+  background-color: #654f6f;
   color: #ffffff !important;
 }
 input[type="submit"].special:hover,
 input[type="reset"].special:hover,
 input[type="button"].special:hover,
 .button.special:hover {
-  background-color: #ec7d75;
+  background-color: #735a7e;
 }
 input[type="submit"].special:active,
 input[type="reset"].special:active,
 input[type="button"].special:active,
 .button.special:active {
-  background-color: #e65349;
+  background-color: #574460;
 }
 input[type="submit"].disabled, input[type="submit"]:disabled,
 input[type="reset"].disabled,
@@ -748,7 +748,7 @@ input[type="button"]:disabled,
 .feature i {
   border-radius: 100%;
   border: solid 3px #eee;
-  color: #E9685F;
+  color: #654f6f;
   display: block;
   height: 7em;
   left: 0;
@@ -834,8 +834,8 @@ input[type="button"]:disabled,
   padding: 6em 0 4em 0;
 }
 .wrapper.style1 {
-  background: #E9685F;
-  color: #f9d9d7;
+  background: #654f6f;
+  color: #d8d3db;
 }
 .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong {
   color: #ffffff;
@@ -884,7 +884,7 @@ input[type="button"]:disabled,
   font-size: 1em;
 }
 #header h1 a:before {
-  color: #E9685F;
+  color: #654f6f;
   margin-right: 0.35em;
 }
 #header h1 sup {
@@ -1108,7 +1108,7 @@ body.is-loading #banner:after {
 }
 #intro .inner {
   display: inline-block;
-  margin-top: -6em;
+  margin-top: -3em;
   padding-right: 6em;
   vertical-align: middle;
   width: 50%;
@@ -1137,7 +1137,16 @@ body.is-loading #banner:after {
   width: 10px;
 }
 #intro ul.actions {
-  margin: 2em 0 0;
+  margin: 5em 0 0;
+}
+#intro ul.actions .button {
+  background-color: #fff;
+  color: #2a2a2a !important;
+}
+#intro ul.actions .button.alt {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+  color: #ffffff !important;
 }
 
 #social {
