@@ -55,7 +55,7 @@
 
 	#intro {
 		.inner {
-			margin-top: -4em;
+			margin-top: -3em;
 			padding-right: 4em;
 		}
 
@@ -66,4 +66,8 @@
 				margin-top: -22px;
 			}
 		}
+
+        ul.actions {
+            margin: ($size-element-margin * 1.5) 0 0;
+        }
 	}

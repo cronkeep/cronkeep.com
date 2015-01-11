@@ -19,8 +19,8 @@
 	$color-fg-bold:				#2a2a2a;
 	$color-fg-light:			#bbb;
 
-	$color-accent-bg:			#654f6f;
-//	$color-accent-bg:			#E9685F;
+	// $color-accent-bg:			#654f6f;
+	$color-accent-bg:			#E9685F;
 	$color-accent-fg:			mix($color-accent-bg, #ffffff, 25%);
 	$color-accent-fg-bold:		#ffffff;
 	$color-accent-fg-light:		mix($color-accent-bg, #ffffff, 40%);
