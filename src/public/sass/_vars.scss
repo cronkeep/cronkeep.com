@@ -19,8 +19,16 @@
 	$color-fg-bold:				#2a2a2a;
 	$color-fg-light:			#bbb;
 
-	// $color-accent-bg:			#654f6f;
-	$color-accent-bg:			#E9685F;
+//	$color-accent-bg:			#654f6f;
+//	$color-accent-bg:			#29BA87;
+//	$color-accent-bg:			#4b4783;
+//	$color-accent-bg:			#ef5350;
+//	$color-accent-bg:			#7CB342;
+//	$color-accent-bg:			#F9A825;
+//	$color-accent-bg:			#43A047;
+//	$color-accent-bg:			#4CAF50;
+	$color-accent-bg:			#5ecb96;
+
 	$color-accent-fg:			mix($color-accent-bg, #ffffff, 25%);
 	$color-accent-fg-bold:		#ffffff;
 	$color-accent-fg-light:		mix($color-accent-bg, #ffffff, 40%);

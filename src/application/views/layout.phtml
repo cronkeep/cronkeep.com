@@ -3,7 +3,7 @@
 <head>
     <title>CronKeep — Web-based Crontab Manager</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="Web-based crontab manager which allows running cron jobs on demand, adding new jobs in a friendly way, all without the need for sysadmin-level access." />
+    <meta name="description" content="Open-source crontab manager which allows running cron jobs on demand, adding new jobs in a friendly way, all without the need for sysadmin-level access." />
     <meta name="keywords" content="cron job crontab manager task scheduler" />
     <meta name="author" content="Bogdan Ghervan" />
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
@@ -56,21 +56,9 @@
 
     <?php echo $content ?>
 
-    <footer id="footer">
-        <ul class="icons">
-            <li><a href="https://github.com/cronkeep/cronkeep" class="icon fa-github"><span class="label">GitHub</span></a></li>
-            <li><a href="https://twitter.com/cronkeep" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="mailto:hello@cronkeep.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-        </ul>
-        <div class="copyright">
-            &copy; CronKeep. Licensed under
-            <a href="https://raw.githubusercontent.com/cronkeep/cronkeep/master/LICENSE">Apache License 2.0</a>.
-        </div>
-        <p>
-            <a href="https://github.com/cronkeep/cronkeep/issues">Issues</a> on GitHub
-            · For any inquiries, <a href="mailto:hello@cronkeep.com">hello@cronkeep.com</a>.
-        </p>
-    </footer>
+    <?php if (!isset($showFooter) || $showFooter !== false): ?>
+        <?php echo $this->partial('partials/footer.phtml') ?>
+    <?php endif; ?>
     
     <?php if ($vars): ?>
         <script>

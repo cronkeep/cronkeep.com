@@ -17,7 +17,13 @@ $app->get('/', function () use ($app) {
 });
 
 $app->get('/demo', function () use ($app) {
-    $app->render('demo.phtml');
+    $app->render('demo.phtml', array(
+        'showFooter' => false
+    ));
+});
+
+$app->get('/license', function () use ($app) {
+   $app->render('license.phtml'); 
 });
 
 $app->run();
