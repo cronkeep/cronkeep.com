@@ -22,6 +22,10 @@ $app->get('/demo', function () use ($app) {
     ));
 });
 
+$app->get('/about', function () use ($app) {
+    $app->render('about.phtml');
+});
+
 $app->get('/license', function () use ($app) {
    $app->render('license.phtml'); 
 });
