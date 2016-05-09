@@ -19,6 +19,7 @@ echo "Provisioning virtual machine..."
 echo "Installing application stack..."
 apt-get update
 apt-get install -y apache2 libapache2-mod-php5 screen git
+git config --global push.default simple
 
 echo "Configuring virtual host..."
 cp /var/www/cronkeep.com/provision/virtual-host.conf /etc/apache2/sites-available/cronkeep.com.conf
