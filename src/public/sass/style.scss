@@ -1225,7 +1225,13 @@
     #social {
         text-align: center;
         
-        .twitter-follow {
+        .facebook-share {
+            .fb-share-button span {
+                vertical-align: inherit !important;
+            }
+        }
+        
+        .twitter-share {
             margin-left: 38px;
         }
         

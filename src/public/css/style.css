@@ -835,7 +835,7 @@ input[type="button"]:disabled,
 }
 .wrapper.style1 {
   background: #5ecb96;
-  color: #d6f2e4;
+  color: #d7f2e5;
 }
 .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong {
   color: #ffffff;
@@ -1152,7 +1152,10 @@ body.is-loading #banner:after {
 #social {
   text-align: center;
 }
-#social .twitter-follow {
+#social .facebook-share .fb-share-button span {
+  vertical-align: inherit !important;
+}
+#social .twitter-share {
   margin-left: 38px;
 }
 #social .github-star {
